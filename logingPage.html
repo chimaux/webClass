@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wheels</title>
+    <style>
+      @font-face {
+        font-family: Heavitas;
+        src: url(fonts/Heavitas.ttf);
+      }
+      @font-face {
+        font-family: Louis;
+        src: url(fonts/LouisGeorgeCafe.ttf);
+      }
+      body {
+        background-image: url("images/bike.jpg"),
+          linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+      #firstPane {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: auto;
+        /*background-color:red;*/
+        background-color: rgba(0, 0, 0, 0.0);
+        margin-top: 50px;
+        margin-left: 100px;
+      }
+      #wheel {
+        width: 27px;
+        margin-bottom: -5px;
+      }
+      #wheelText {
+        font-family: Louis;
+        font-size: 25px;
+        color: white;
+        margin-left: 10px;
+      }
+      .menu {
+        font-family: Louis;
+        font-size: 15px;
+        color: white;
+        margin-right: 20px;
+      }
+      #login {
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 7px 10px 7px 10px;
+      }
+      #secondPane {
+        margin-top: 80px;
+        margin-bottom: 40px;
+      }
+      #html5 {
+        width: 60px;
+        height: auto;
+        filter: invert(100%);
+      }
+      #secondPaneInner {
+        width: 50px;
+        margin: 0 auto;
+      }
+
+      #button {
+        width: 427px;
+        height: 60px;
+        margin-bottom: 15px;
+        background-color: rgb(252, 99, 107);
+        border-radius: 40px;
+        border: transparent;
+        font-family: louis;
+        font-size: 20px;
+        color: white;
+      }
+      #loginInputArea {
+        width: 427px;
+        margin: 0 auto;
+      }
+      input::placeholder {
+        font-family: louis;
+        font-size: 15px;
+        color: rgb(219, 217, 217);
+      }
+      .inputs {
+        width: 350px;
+        height: 60px;
+
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 30px;
+        border: transparent;
+      }
+
+      .inputsPane {
+        width: 400px;
+        height: 60px;
+        padding-left: 25px;
+        margin-bottom: 25px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 40px;
+        border: transparent;
+      }
+      .icon {
+        width: 18px;
+        height: auto;
+        filter: invert(100%);
+        margin-right: 20px;
+      }
+      #thirdPane {
+        display: flex;
+        justify-content: space-between;
+        width: 427px;
+        margin: 0 auto;
+      }
+      #fourthPane {
+        display: flex;
+        justify-content: space-between;
+        width: 427px;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+
+      #fourthPane span {
+        color: white;
+        font-family: Louis;
+        font-size: 20px;
+      }
+      #thirdPane span {
+        color: rgb(219, 217, 217);
+        font-family: Louis;
+      }
+      #on {
+        width: 40px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        margin-bottom: -2px;
+        margin-right: 20px;
+      }
+      #fifthPane {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+      .footer {
+        color: rgb(209, 209, 209);
+        margin-left: 20px;
+        font-family: Louis;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="firstPane">
+      <span>
+        <span><img id="wheel" src="images/wheel1.png" alt="wheel1.png" /></span
+        ><span id="wheelText">Wheels</span>
+      </span>
+      <span>
+        <span class="menu" id="login">Login</span>
+        <span class="menu">About Us</span>
+        <span class="menu">Register</span>
+        <span class="menu">Contact</span>
+      </span>
+    </div>
+    <div id="secondPane">
+      <div id="secondPaneInner">
+        <img id="html5" src="images/html5.png" alt="HTML5" />
+      </div>
+    </div>
+    <div id="loginInputArea">
+      <div class="inputsPane">
+        <span><img class="icon" src="images/profile.png" alt="icon" /></span
+        ><span
+          ><input class="inputs" type="text" placeholder="username"
+        /></span>
+      </div>
+      <div class="inputsPane">
+        <span><img class="icon" src="images/padlock.png" alt="icon" /></span
+        ><span
+          ><input class="inputs" type="text" placeholder="password"
+        /></span>
+      </div>
+      <div>
+        <button id="button">GET STARTED</button>
+      </div>
+    </div>
+    <div id="thirdPane">
+      <span id="keepLogged">
+        <span><img id="on" src="images/on.png" alt="toggle" /></span
+        ><span>Keep Logged In</span>
+      </span>
+      <span> Forgot Password </span>
+    </div>
+    <div id="fourthPane">
+      <span> CREATE ACCOUNT </span>
+      <span> NEED HELP </span>
+    </div>
+
+    <div id="fifthPane">
+      <span>
+        <span class="footer">About Us</span
+        ><span class="footer">Privacy Policy</span
+        ><span class="footer">Term Of Use</span>
+      </span>
+      <span class="footer">
+        © 2019 Key. All Rights Reserved | Design By W3layouts
+      </span>
+    </div>
+  </body>
+</html>
