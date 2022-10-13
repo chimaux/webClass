@@ -1,0 +1,180 @@
+@font-face {
+    font-family:PoppinsRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:PoppinsBlack;
+    src: url(../fonts/Poppins-Black.ttf);
+}
+body{
+    margin:0;
+    padding:0;
+   
+    position: relative;
+}
+#topMenu{
+    display: flex;
+    justify-content: space-between;
+
+}
+#vector{
+    width: 25.26px;
+    height: 23;
+    margin-top: 9px;
+
+}
+#leftTopMenu{
+    display: flex;
+    
+    font-family: poppinsBlack;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    
+
+
+}
+#rightTopMenu ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+#rightTopMenu ul li a{
+    font-family: poppinsRegular;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+#rightTopMenu ul li a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+}
+#rightTopMenu{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+#signup{
+    background-color: rgb(19, 18, 18);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+#signup:hover{
+    background-color: rgb(65, 63, 63);
+
+}
+#signup a{
+    color: white;
+}
+.menuList a{
+    color: black;
+}
+
+#explore{
+    position: relative;
+    font-size: 16px;
+    background-color: #F4F6F5;
+    height: 700px;
+    margin: 20px 50px 0px 50px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#explore #lets{
+    position: absolute;
+    z-index:1;
+    font-family:poppinsBlack;
+    font-size: 5vw;
+  
+    color: black;
+    left: 3vw;
+}
+#whiteR
+{
+    position:absolute;
+    width:22vw;
+    height: auto;
+    left:3vw;
+    top: 5vw;
+}
+#yellowR
+{
+    position:absolute;
+    width: 24vw;
+    height: auto;
+    left:3vw;
+    top: 20vw;
+}
+#influence
+{
+    position: absolute;
+bottom: 12vw;
+left:3vw;
+font-family: poppinsRegular;
+font-size: 1.48vw;
+}
+#btn1{
+    position: absolute;
+    bottom: 17vh;
+    left: 3vw;
+    color: white;
+    background-color: #181717;
+    border-style: none;
+    padding: 1vw 2.2vw;
+    border-radius: 5px;
+    font-family: poppinsRegular;
+    font-size: 1.4vw;
+}
+#btn1:hover{
+
+    background-color: #353333;
+ 
+}
+#lady1{
+    position: absolute;
+ 
+    width: 44vw;
+    left: 40vw;
+    bottom: -10vh;
+}
+#star{
+    position: absolute;
+    width: 40px;
+    right: 10vw;
+    top: 12vh;
+
+}
+
+#star1{
+    position: absolute;
+    width: 40px;
+    right: 52vw;
+    top: 12vh;
+}
+#star2{
+    position: absolute;
+    width: 40px;
+    right: 10vw;
+    bottom: 20vh;
+}
+#star3{
+    position: absolute;
+    width: 40px;
+    right: 52vw;
+    bottom: 20vh;
+}
+#brandDiv{
+   
+    background-color: #EBD96B;
+    margin: 50px 0;
+    padding: 30px 0 40px 0;
+   
+
+    
+}
+#brandDiv img{
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+}
